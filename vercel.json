@@ -1,7 +1,7 @@
 {
     "version": 2,
     "builds": [
-        { "src": "ChuanhuChatbot.py", "use": "@now/python" }
+        { "src": "ChuanhuChatbot.py", "use": "@vercel/python" }
     ],
     "routes": [
         { "src": "/(.*)", "dest": "ChuanhuChatbot.py" }
